@@ -1,0 +1,41 @@
+O que é um Banco de Dados?
+    É uma coleção organizada de informações onde a gente pode guardar e encontrar essas informações facilmente, e geralmente essa informações são conjuntos de dados relacionados a um determinado tópico.
+
+Qual a diferença de Banco de Dados Relacional e Não Relacional?
+    Banco de Dados Relacional: Os dados são organizados semelhante com uma planilha, com linhas e colunas. Exemplo: MySQL: escalável, transações complexas
+    Banco de Dados Não Relacional: Os dados são guardados de forma mais livre, sem seguir uma estrutura fixa. Exemplo: MongoDB - Utiliza armazenamento de documentos JSON, como perfis de usuários, não é adequado pra transações complexas por ser mais simples
+
+Quais são as principais diferenças entre PostgreSQL, MySQL e SQLite? 
+    PostgreSQL:
+        Ideal para:
+            Aplicações complexas, robustez, segurança e escalabilidade.
+            Grandes conjuntos de dados.
+            Sistemas que precisam ser altamente confiáveis e seguros.
+        Características:
+            Open-source e gratuito.
+            Altamente confiável e seguro.
+            Altamente escalável.
+            Mais complexo de configurar e gerenciar que o MySQL.
+
+    MySQL:
+        Ideal para:
+            Aplicações web de médio porte que precisam de um banco de dados fácil de usar e com bom desempenho.
+            Sites, lojas virtuais, pequenas e médias empresas.
+        Características:
+            Open-Source
+            Versão gratuita (MySQL Community Edition) e paga (MySQL Enterprise Edition) - Diferenças em suporte e em algumas funcionalidades.
+            Alta performance para aplicações web.
+            Escalável para aplicações de médio porte.
+            Menos seguro que o PostgreSQL por padrão.
+
+    SQLite:
+        Ideal para:
+            Aplicações leves que precisam de um banco de dados portátil e fácil de integrar.
+            Aplicações móveis e dispositivos embarcados.
+            Protótipos e projetos rápidos.
+        Características:
+            Domínio público, diferente de open source, não recebe contribuição de indivíduos
+            Banco de dados empacotado em um único arquivo.
+            Simples de integrar em aplicações.
+            Não requer um servidor de banco de dados separado.
+            Não é adequado para grandes conjuntos de dados.
