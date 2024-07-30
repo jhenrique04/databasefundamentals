@@ -20,8 +20,8 @@ INSERT INTO EMPLOYEE (Fname, Minit, Lname, Ssn, Bdate, Address, Sex, Salary, Sup
 UPDATE DEPARTMENT SET Dname = 'Datascience', Dnumber = 7, Mgr_ssn = '112233445', Mgr_start_date = '2024-04-09' WHERE Dname = 'Datascience' AND Dnumber = 7;
 UPDATE EMPLOYEE SET Super_ssn = '112233445' WHERE Ssn IN ('112233445', '112233455');
 
--- Aumentar o salário de todos os empregados em 23.5% do valor atual
-UPDATE EMPLOYEE SET Salary = Salary * 1.235;
+-- Aumentar o salário de todos os empregados em 13.5% do valor atual
+UPDATE EMPLOYEE SET Salary = Salary * 1.135;
 
 -- Mudar o endereço de residência do departamento 4 para 'Itapajé, CE'
 UPDATE DEPT_LOCATIONS SET Dlocation = 'Itapajé, CE' WHERE Dnumber = 4;
