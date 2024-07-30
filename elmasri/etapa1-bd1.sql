@@ -1,5 +1,5 @@
 -- Importar o banco de dados
-SOURCE ~/Downloads/Employee_Database_Script.sql
+SOURCE ~/Projects/databasefundamentals/elmasri/db_create.sql
 
 -- Nome dos departamentos da empresa
 SELECT * FROM DEPARTMENT;
